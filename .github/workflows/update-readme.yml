@@ -1,0 +1,72 @@
+name: Auto-Update Merged PRs in Profile README
+
+on:
+  schedule:
+    - cron: '0 */6 * * *' # Run every 6 hours
+  workflow_dispatch: # Allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Fetch Merged Pull Requests & Update README
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 -c "
+          import subprocess, json, re
+
+          # Search for merged PRs authored by Echolonius
+          cmd = ['gh', 'search', 'prs', '--author=Echolonius', '--state=merged', '--limit=10', '--json', 'repository,number,title,url,mergedAt']
+          res = subprocess.run(cmd, capture_output=True, text=True)
+          if res.returncode != 0:
+              print('Error fetching PRs:', res.stderr)
+              exit(1)
+
+          prs = json.loads(res.stdout)
+          print(f'Fetched {len(prs)} merged PRs.')
+
+          # Build Markdown Table
+          lines = ['| Repository | Pull Request | Status | Merged Date |', '| :--- | :--- | :---: | :--- |']
+          for p in prs:
+              repo_name = p.get('repository', {}).get('fullName', 'N/A')
+              repo_url = f'https://github.com/{repo_name}'
+              num = p.get('number')
+              title = p.get('title', '').replace('|', '\\|')
+              url = p.get('url')
+              merged_at = p.get('mergedAt', '')[:10]
+              lines.append(f'| **[{repo_name}]({repo_url})** | [#{num}: {title}]({url}) | 🟢 Merged | {merged_at} |')
+
+          table_md = '\n'.join(lines)
+
+          # Read README.md
+          with open('README.md', 'r', encoding='utf-8') as f:
+              content = f.read()
+
+          # Replace block between markers
+          pattern = r'<!-- MERGED_PRS_START -->.*?<!-- MERGED_PRS_END -->'
+          replacement = f'<!-- MERGED_PRS_START -->\n{table_md}\n<!-- MERGED_PRS_END -->'
+          new_content = re.sub(pattern, replacement, content, flags=re.DOTALL)
+
+          with open('README.md', 'w', encoding='utf-8') as f:
+              f.write(new_content)
+          print('README.md successfully updated with latest merged PRs.')
+          "
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git diff --cached --quiet; then
+            echo "No changes to README.md"
+          else
+            git commit -m "docs(readme): auto-update latest merged pull requests"
+            git push origin main
+          fi
