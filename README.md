@@ -50,14 +50,14 @@
 <!-- MERGED_PRS_START -->
 | Repository | Pull Request | Status | Merged Date |
 | :--- | :--- | :---: | :--- |
-| **[profullstack/sh1pt](https://github.com/profullstack/sh1pt)** | [#767: Groq adapter integration](https://github.com/profullstack/sh1pt/pull/767) | 🟢 Merged | 2026-07-31 |
-| **[profullstack/sh1pt](https://github.com/profullstack/sh1pt)** | [#766: DeepSeek adapter integration](https://github.com/profullstack/sh1pt/pull/766) | 🟢 Merged | 2026-07-31 |
-| **[profullstack/sh1pt](https://github.com/profullstack/sh1pt)** | [#765: Mistral adapter integration](https://github.com/profullstack/sh1pt/pull/765) | 🟢 Merged | 2026-07-31 |
-| **[profullstack/sh1pt](https://github.com/profullstack/sh1pt)** | [#764: xAI Grok adapter integration](https://github.com/profullstack/sh1pt/pull/764) | 🟢 Merged | 2026-07-31 |
-| **[profullstack/sh1pt](https://github.com/profullstack/sh1pt)** | [#763: Cerebras adapter integration](https://github.com/profullstack/sh1pt/pull/763) | 🟢 Merged | 2026-07-31 |
-| **[Echolonius/finalrun-agent](https://github.com/Echolonius/finalrun-agent)** | [#146: Integrated Base USDC claim headers](https://github.com/Echolonius/finalrun-agent/pull/146) | 🟢 Merged | 2026-07-28 |
-| **[Echolonius/awesome-x402](https://github.com/Echolonius/awesome-x402)** | [#730: Registered agent payment endpoints](https://github.com/Echolonius/awesome-x402/pull/730) | 🟢 Merged | 2026-07-25 |
-| **[Echolonius/x402](https://github.com/Echolonius/x402)** | [#2787: Documented x402 Bazaar schemas](https://github.com/Echolonius/x402/pull/2787) | 🟢 Merged | 2026-07-20 |
+| **[profullstack/sh1pt](https://github.com/profullstack/sh1pt)** | [#767: Implement Phala AI adapter](https://github.com/profullstack/sh1pt/pull/767) | 🟢 Merged | 2026-07-08 |
+| **[profullstack/sh1pt](https://github.com/profullstack/sh1pt)** | [#766: Implement AtlasCloud AI adapter](https://github.com/profullstack/sh1pt/pull/766) | 🟢 Merged | 2026-07-08 |
+| **[profullstack/sh1pt](https://github.com/profullstack/sh1pt)** | [#765: Implement Morph, StepFun, and Inception AI adapters](https://github.com/profullstack/sh1pt/pull/765) | 🟢 Merged | 2026-07-08 |
+| **[profullstack/sh1pt](https://github.com/profullstack/sh1pt)** | [#764: Implement Reka AI and Arcee AI adapters](https://github.com/profullstack/sh1pt/pull/764) | 🟢 Merged | 2026-07-08 |
+| **[profullstack/sh1pt](https://github.com/profullstack/sh1pt)** | [#763: feat(ai): integrate AI21 adapter (jamba-large/jamba-mini)](https://github.com/profullstack/sh1pt/pull/763) | 🟢 Merged | 2026-07-08 |
+| **[xpaysh/awesome-x402](https://github.com/xpaysh/awesome-x402)** | [#730: Add Token Intel (Solana token due-diligence, x402 USDC on Base)](https://github.com/xpaysh/awesome-x402/pull/730) | 🟢 Merged | 2026-07-28 |
+| **[x402-foundation/x402](https://github.com/x402-foundation/x402)** | [#2787: docs: replace dead facilitator.x402.org with x402.org/facilitator](https://github.com/x402-foundation/x402/pull/2787) | 🟢 Merged | 2026-07-05 |
+| **[droid-ash/finalrun-agent](https://github.com/droid-ash/finalrun-agent)** | [#146: fix(goal-executor): replace z.record() with z.object().passthrough() in Anthropic schemas](https://github.com/droid-ash/finalrun-agent/pull/146) | 🟢 Merged | 2026-07-17 |
 <!-- MERGED_PRS_END -->
 
 ---
