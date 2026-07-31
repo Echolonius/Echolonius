@@ -23,7 +23,7 @@ jobs:
           import subprocess, json, re
 
           # Search for merged PRs authored by Echolonius
-          cmd = ['gh', 'search', 'prs', '--author=Echolonius', '--state=merged', '--limit=10', '--json', 'repository,number,title,url,mergedAt']
+          cmd = ['gh', 'search', 'prs', '--author=Echolonius', '--state=closed', '--merged', '--limit=10', '--json', 'repository,number,title,url,closedAt']
           res = subprocess.run(cmd, capture_output=True, text=True)
           if res.returncode != 0:
               print('Error fetching PRs:', res.stderr)
@@ -35,12 +35,12 @@ jobs:
           # Build Markdown Table
           lines = ['| Repository | Pull Request | Status | Merged Date |', '| :--- | :--- | :---: | :--- |']
           for p in prs:
-              repo_name = p.get('repository', {}).get('fullName', 'N/A')
+              repo_name = p.get('repository', {}).get('nameWithOwner', 'N/A')
               repo_url = f'https://github.com/{repo_name}'
               num = p.get('number')
               title = p.get('title', '').replace('|', '\\|')
               url = p.get('url')
-              merged_at = p.get('mergedAt', '')[:10]
+              merged_at = p.get('closedAt', '')[:10]
               lines.append(f'| **[{repo_name}]({repo_url})** | [#{num}: {title}]({url}) | 🟢 Merged | {merged_at} |')
 
           table_md = '\n'.join(lines)
