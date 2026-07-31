@@ -31,11 +31,15 @@ I build code in collaboration with AI pair-programmers—including **Google Anti
 * **[x402](https://github.com/Echolonius/x402)**: [#2787](https://github.com/Echolonius/x402/pull/2787) — Documented x402 Bazaar protocol schemas
 
 ### 🚀 Active Verified Pull Requests (`Verified: True`)
-* **[profullstack/referrals#5](https://github.com/profullstack/referrals/pull/5)** — Prevented self-referral abuse in `applyReferral()`
-* **[profullstack/referrals#4](https://github.com/profullstack/referrals/pull/4)** — Preserved first-touch attribution in `trackReferralCode()`
+* **[profullstack/aiornot.vote#107](https://github.com/profullstack/aiornot.vote/pull/107)** — Fixed CoinPay error handling & error status propagation (fixes #93)
+* **[profullstack/aiornot.vote#108](https://github.com/profullstack/aiornot.vote/pull/108)** — Added JSON 404 route handler for root `/api` requests (fixes #90)
+* **[profullstack/referrals#6](https://github.com/profullstack/referrals/pull/6)** — Preserved first-touch attribution in `trackReferralCode()` (fixes #3)
+* **[profullstack/referrals#5](https://github.com/profullstack/referrals/pull/5)** — Prevented self-referral abuse in `applyReferral()` (fixes #1)
+* **[anthropics/claude-agent-sdk-python#1112](https://github.com/anthropics/claude-agent-sdk-python/pull/1112)** — Unblocked `read_messages` on process exit (rebased & mergeable)
+* **[anthropics/claude-agent-sdk-python#1107](https://github.com/anthropics/claude-agent-sdk-python/pull/1107)** — Fixed Slack CI workflow title escaping (rebased & mergeable)
+* **[x402-foundation/x402#3002](https://github.com/x402-foundation/x402/pull/3002)** — Required typed integer `x402Version` in discovery
 * **[x402-foundation/x402#2998](https://github.com/x402-foundation/x402/pull/2998)** — Documented Bazaar description size limits & explicit rejection signals
 * **[anthropics/claude-agent-sdk-python#1106](https://github.com/anthropics/claude-agent-sdk-python/pull/1106)** — Maintained stdin open for tool permission handlers *(Co-authored with Claude)*
-* **[anthropics/claude-quickstarts#428](https://github.com/anthropics/claude-quickstarts/pull/428)** — Fixed model fallback resolution in BrowserTool
 * **[Nethereum/Nethereum#1118](https://github.com/Nethereum/Nethereum/pull/1118)** — Updated live facilitator endpoint references
 
 ---
