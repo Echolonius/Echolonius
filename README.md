@@ -50,15 +50,16 @@
 <!-- MERGED_PRS_START -->
 | Repository | Pull Request | Status | Merged Date |
 | :--- | :--- | :---: | :--- |
+| **[profullstack/referrals](https://github.com/profullstack/referrals)** | [#11: feat(core): add referral campaign analytics and expiration extension helpers](https://github.com/profullstack/referrals/pull/11) | 🟢 Merged | 2026-08-01 |
+| **[profullstack/referrals](https://github.com/profullstack/referrals)** | [#9: feat(core): support custom per-code referral splits in applyReferral and createCode](https://github.com/profullstack/referrals/pull/9) | 🟢 Merged | 2026-08-01 |
 | **[profullstack/aiornot.vote](https://github.com/profullstack/aiornot.vote)** | [#108: fix(api): return JSON 404 response for unmatched root /api requests (fixes #90)](https://github.com/profullstack/aiornot.vote/pull/108) | 🟢 Merged | 2026-08-01 |
+| **[profullstack/referrals](https://github.com/profullstack/referrals)** | [#6: fix(next): preserve existing referral cookie in trackReferralCode (fixes #3)](https://github.com/profullstack/referrals/pull/6) | 🟢 Merged | 2026-08-01 |
 | **[profullstack/sh1pt](https://github.com/profullstack/sh1pt)** | [#767: Implement Phala AI adapter](https://github.com/profullstack/sh1pt/pull/767) | 🟢 Merged | 2026-07-08 |
 | **[profullstack/sh1pt](https://github.com/profullstack/sh1pt)** | [#766: Implement AtlasCloud AI adapter](https://github.com/profullstack/sh1pt/pull/766) | 🟢 Merged | 2026-07-08 |
 | **[profullstack/sh1pt](https://github.com/profullstack/sh1pt)** | [#765: Implement Morph, StepFun, and Inception AI adapters](https://github.com/profullstack/sh1pt/pull/765) | 🟢 Merged | 2026-07-08 |
 | **[profullstack/sh1pt](https://github.com/profullstack/sh1pt)** | [#764: Implement Reka AI and Arcee AI adapters](https://github.com/profullstack/sh1pt/pull/764) | 🟢 Merged | 2026-07-08 |
 | **[profullstack/sh1pt](https://github.com/profullstack/sh1pt)** | [#763: feat(ai): integrate AI21 adapter (jamba-large/jamba-mini)](https://github.com/profullstack/sh1pt/pull/763) | 🟢 Merged | 2026-07-08 |
 | **[xpaysh/awesome-x402](https://github.com/xpaysh/awesome-x402)** | [#730: Add Token Intel (Solana token due-diligence, x402 USDC on Base)](https://github.com/xpaysh/awesome-x402/pull/730) | 🟢 Merged | 2026-07-28 |
-| **[x402-foundation/x402](https://github.com/x402-foundation/x402)** | [#2787: docs: replace dead facilitator.x402.org with x402.org/facilitator](https://github.com/x402-foundation/x402/pull/2787) | 🟢 Merged | 2026-07-05 |
-| **[droid-ash/finalrun-agent](https://github.com/droid-ash/finalrun-agent)** | [#146: fix(goal-executor): replace z.record() with z.object().passthrough() in Anthropic schemas](https://github.com/droid-ash/finalrun-agent/pull/146) | 🟢 Merged | 2026-07-17 |
 <!-- MERGED_PRS_END -->
 
 ---
