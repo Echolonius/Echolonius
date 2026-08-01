@@ -50,6 +50,7 @@
 <!-- MERGED_PRS_START -->
 | Repository | Pull Request | Status | Merged Date |
 | :--- | :--- | :---: | :--- |
+| **[profullstack/aiornot.vote](https://github.com/profullstack/aiornot.vote)** | [#108: fix(api): return JSON 404 response for unmatched root /api requests (fixes #90)](https://github.com/profullstack/aiornot.vote/pull/108) | 🟢 Merged | 2026-08-01 |
 | **[profullstack/sh1pt](https://github.com/profullstack/sh1pt)** | [#767: Implement Phala AI adapter](https://github.com/profullstack/sh1pt/pull/767) | 🟢 Merged | 2026-07-08 |
 | **[profullstack/sh1pt](https://github.com/profullstack/sh1pt)** | [#766: Implement AtlasCloud AI adapter](https://github.com/profullstack/sh1pt/pull/766) | 🟢 Merged | 2026-07-08 |
 | **[profullstack/sh1pt](https://github.com/profullstack/sh1pt)** | [#765: Implement Morph, StepFun, and Inception AI adapters](https://github.com/profullstack/sh1pt/pull/765) | 🟢 Merged | 2026-07-08 |
