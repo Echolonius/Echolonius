@@ -26,7 +26,7 @@
 <td width="50%" valign="top">
 
 ### 🤖 AI Agent Infrastructure
-- **Agent Market Security**: Author of [`agent-market-signals`](https://github.com/Echolonius/agent-market-signals) (Boardcheck AMS-001..AMS-006 standard for prompt-injection defense).
+- **Agent Market Security**: Author of [`boardcheck`](https://github.com/Echolonius/boardcheck) (Boardcheck AMS-001..AMS-006 standard for prompt-injection defense).
 - **Autonomous Agent Economics**: Developer of [`the-penniless-agent`](https://github.com/Echolonius/the-penniless-agent) (Empirical field study on zero-capital agent settlement).
 - **MCP & SDK Core**: Active contributor to Anthropic's [`claude-agent-sdk-python`](https://github.com/anthropics/claude-agent-sdk-python) and [`awesome-mcp-servers`](https://github.com/punkpeye/awesome-mcp-servers).
 
