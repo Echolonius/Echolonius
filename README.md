@@ -1,82 +1,24 @@
 <div align="center">
 
-# `Echolonius`
+# Echolonius
 
-<img src="assets/derpy_sleeping_cat.jpg" width="180" alt="Echolonius Avatar" style="border-radius: 50%; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4); margin-bottom: 12px;" />
-
-### *Systems Architecture • Web3 Infrastructure • Autonomous AI Agent Engineering*
-
-[![SSH Signing](https://img.shields.io/badge/SSH_Commits-Verified_True-2da44e?style=for-the-badge&logo=github)](https://github.com/Echolonius)
-[![Base USDC](https://img.shields.io/badge/Base_USDC-0xd194...49af-0052FF?style=for-the-badge&logo=base)](https://basescan.org/address/0xd194AB36E66BccDD80f19b56757CFe52EdEd49af)
-[![Solana USDC](https://img.shields.io/badge/Solana_USDC-3wbin...XXHT-14F195?style=for-the-badge&logo=solana)](https://solscan.io/account/3wbinZDnWmDxHMLtACNrskwZvRwg4KYbBWw1wuviXXHT)
-[![AI Engine](https://img.shields.io/badge/AI_Pair_Programming-Google_Antigravity-4285F4?style=for-the-badge&logo=google)](https://github.com/Echolonius)
-
-<br />
+<img src="assets/derpy_sleeping_cat.jpg" width="160" alt="A sleeping cat" />
 
 </div>
 
-> *"Building deterministic, high-assurance software protocols at the intersection of autonomous AI agent intelligence, decentralized settlement rails, and cryptographically verified code pipelines."*
+I direct AI coding agents (mostly Claude Code, sometimes Gemini) and decide what they build.
+Nearly everything on this account was written by AI under my direction, and I label it that way.
 
----
+## Projects
 
-## 🛠️ Focus Areas & Open Standards
+- **[boardcheck](https://github.com/Echolonius/boardcheck)**: checks whether an AI-agent
+  marketplace's published numbers hold up against public evidence. Includes a spec, detectors,
+  tests and a [browser demo](https://echolonius.github.io/boardcheck/).
+- **[the-penniless-agent](https://github.com/Echolonius/the-penniless-agent)**: a field report on
+  trying to earn money as an AI agent starting from $0. The honest result so far is $0, and the
+  report explains why.
 
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
+## What I'm working on
 
-### 🤖 AI Agent Infrastructure
-- **Agent Market Security**: Author of [`boardcheck`](https://github.com/Echolonius/boardcheck) (Boardcheck AMS-001..AMS-006 standard for prompt-injection defense).
-- **Autonomous Agent Economics**: Developer of [`the-penniless-agent`](https://github.com/Echolonius/the-penniless-agent) (Empirical field study on zero-capital agent settlement).
-- **MCP & SDK Core**: Active contributor to Anthropic's [`claude-agent-sdk-python`](https://github.com/anthropics/claude-agent-sdk-python) and [`awesome-mcp-servers`](https://github.com/punkpeye/awesome-mcp-servers).
-
-</td>
-<td width="50%" valign="top">
-
-### 🌐 Web3 & Micropayment Protocols
-- **x402 Settlement**: Implementation of `x402` pay-per-call micropayment APIs and Bazaar discovery specifications ([`x402-foundation/x402`](https://github.com/x402-foundation/x402)).
-- **Cryptographic Identity**: 100% GPG/SSH key-signed commits, privacy-preserving `noreply` relays, and receive-only multi-chain treasuries (Base & Solana).
-
-</td>
-</tr>
-</table>
-
----
-
-## 🟢 Latest Merged Contributions
-
-*The list below is automatically updated via GitHub Actions upon pull request merges:*
-
-<!-- MERGED_PRS_START -->
-| Repository | Pull Request | Status | Merged Date |
-| :--- | :--- | :---: | :--- |
-| **[profullstack/referrals](https://github.com/profullstack/referrals)** | [#11: feat(core): add referral campaign analytics and expiration extension helpers](https://github.com/profullstack/referrals/pull/11) | 🟢 Merged | 2026-08-01 |
-| **[profullstack/referrals](https://github.com/profullstack/referrals)** | [#9: feat(core): support custom per-code referral splits in applyReferral and createCode](https://github.com/profullstack/referrals/pull/9) | 🟢 Merged | 2026-08-01 |
-| **[profullstack/aiornot.vote](https://github.com/profullstack/aiornot.vote)** | [#108: fix(api): return JSON 404 response for unmatched root /api requests (fixes #90)](https://github.com/profullstack/aiornot.vote/pull/108) | 🟢 Merged | 2026-08-01 |
-| **[profullstack/referrals](https://github.com/profullstack/referrals)** | [#6: fix(next): preserve existing referral cookie in trackReferralCode (fixes #3)](https://github.com/profullstack/referrals/pull/6) | 🟢 Merged | 2026-08-01 |
-| **[profullstack/sh1pt](https://github.com/profullstack/sh1pt)** | [#767: Implement Phala AI adapter](https://github.com/profullstack/sh1pt/pull/767) | 🟢 Merged | 2026-07-08 |
-| **[profullstack/sh1pt](https://github.com/profullstack/sh1pt)** | [#766: Implement AtlasCloud AI adapter](https://github.com/profullstack/sh1pt/pull/766) | 🟢 Merged | 2026-07-08 |
-| **[profullstack/sh1pt](https://github.com/profullstack/sh1pt)** | [#765: Implement Morph, StepFun, and Inception AI adapters](https://github.com/profullstack/sh1pt/pull/765) | 🟢 Merged | 2026-07-08 |
-| **[profullstack/sh1pt](https://github.com/profullstack/sh1pt)** | [#764: Implement Reka AI and Arcee AI adapters](https://github.com/profullstack/sh1pt/pull/764) | 🟢 Merged | 2026-07-08 |
-| **[profullstack/sh1pt](https://github.com/profullstack/sh1pt)** | [#763: feat(ai): integrate AI21 adapter (jamba-large/jamba-mini)](https://github.com/profullstack/sh1pt/pull/763) | 🟢 Merged | 2026-07-08 |
-| **[xpaysh/awesome-x402](https://github.com/xpaysh/awesome-x402)** | [#730: Add Token Intel (Solana token due-diligence, x402 USDC on Base)](https://github.com/xpaysh/awesome-x402/pull/730) | 🟢 Merged | 2026-07-28 |
-<!-- MERGED_PRS_END -->
-
----
-
-## ⚡ Technical Stack & Principles
-
-```
-  ┌──────────────────────┬──────────────────────┬──────────────────────┐
-  │  Core Languages      │  Frameworks & SDKs   │  Protocols & Trust   │
-  ├──────────────────────┼──────────────────────┼──────────────────────┤
-  │  TypeScript / JS     │  Next.js App Router  │  x402 Micropayments  │
-  │  Python 3.12+        │  Node.js / Vitest    │  Model Context (MCP) │
-  │  Solidity / Rust     │  FastAPI / Pydantic  │  SSH/GPG Signed Git  │
-  └──────────────────────┴──────────────────────┴──────────────────────┘
-```
-
-<div align="center">
-  <br />
-  <sub>Architected in collaboration with Google Antigravity & Claude 🤖✨</sub>
-</div>
+Finding where AI-assisted contributions actually help open-source maintainers, and keeping
+those contributions small, tested and clearly labeled.
