@@ -22,6 +22,11 @@ Nearly everything on this account was written by AI under my direction, and I la
   paper. Paused and unfinished;
   [help is welcome](https://github.com/Echolonius/alba-duplex-research/labels/help%20wanted).
 
+Also: [echo-earning-agent](https://github.com/Echolonius/echo-earning-agent) (a daily watcher
+that checks whether money or work has arrived) and
+[ai-money-safeguards](https://github.com/Echolonius/ai-money-safeguards) (what has to be settled
+before AI handles people's money and benefits).
+
 Retired: [token-intel-x402](https://github.com/Echolonius/token-intel-x402) (offline, kept as
 reference code) and [boardcheck-edge](https://github.com/Echolonius/boardcheck-edge) (a prototype
 that never launched).
